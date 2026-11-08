@@ -145,13 +145,9 @@ SOURCE_DIR="$PWD"
 # the destination becomes /root Markdown instead of an invalid path.
 if [[ "$SOURCE_DIR" == "/" ]]; then
   SOURCE_NAME="root"
-else
-  SOURCE_NAME="${SOURCE_DIR:t}"
-fi
-
-if [[ "$SOURCE_DIR" == "/" ]]; then
   OUTPUT_ROOT="/${SOURCE_NAME} Markdown"
 else
+  SOURCE_NAME="${SOURCE_DIR:t}"
   OUTPUT_ROOT="${SOURCE_DIR}/${SOURCE_NAME} Markdown"
 fi
 
