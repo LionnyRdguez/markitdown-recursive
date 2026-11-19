@@ -1,0 +1,22 @@
+# 1. Autodetectar archivos de texto y guardar siempre en el repositorio como LF
+* text=auto
+
+# 2. Forzar explícitamente LF en scripts de Linux / Shell
+# Esto evita que un script fallen en WSL por culpa de un editor en Windows
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# 3. Forzar explícitamente CRLF en scripts propios de Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# 4. Indicar que los archivos binarios no deben modificarse bajo ninguna circunstancia
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
