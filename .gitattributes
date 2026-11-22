@@ -6,6 +6,13 @@
 *.sh text eol=lf
 *.bash text eol=lf
 *.zsh text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
 
 # 3. Forzar explícitamente CRLF en scripts propios de Windows
 *.bat text eol=crlf
