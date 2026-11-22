@@ -2,7 +2,7 @@
 
 [![Shell](https://img.shields.io/badge/Shell-Zsh-4EAA25?style=flat-square)](https://www.zsh.org/)
 [![Python](https://img.shields.io/badge/Python-3.10--3.14-3776AB?style=flat-square)](https://www.python.org/)
-[![Descarga](https://img.shields.io/badge/Descarga-Un%20solo%20archivo-blue?style=flat-square)](https://github.com/LionnyRdguez/markitdown-recursive/raw/refs/heads/main/Zsh/MarkitdownRecursive.zsh?download=1)
+[![Descarga](https://img.shields.io/badge/Descarga-Un%20solo%20archivo-blue?style=flat-square)](https://github.com/LionnyRdguez/markitdown-recursive/releases/latest/download/MarkitdownRecursive.zsh)
 
 **Instala las dependencias, descarga un archivo y ejecuta el script.**
 
@@ -315,7 +315,7 @@ mkdir -p "$HOME/scripts"
 
 ### Opción A — Descargar desde el navegador
 
-[**⬇️ Descargar MarkitdownRecursive.zsh**](https://github.com/LionnyRdguez/markitdown-recursive/raw/refs/heads/main/Zsh/MarkitdownRecursive.zsh?download=1)
+[**⬇️ Descargar MarkitdownRecursive.zsh**](https://github.com/LionnyRdguez/markitdown-recursive/releases/latest/download/MarkitdownRecursive.zsh)
 
 Este enlace de descarga apunta a la rama **`main`**, destinada a las versiones estables para los usuarios. Solicita el archivo como descarga en lugar de abrir la vista del código fuente.
 
